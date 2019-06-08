@@ -53,6 +53,7 @@ function addTransaction(date,amt) {
     transactions.set(date,amt);
 }
 
+
 // Use the function to add transactions
 
 
