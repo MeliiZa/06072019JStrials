@@ -34,16 +34,24 @@ function showAddresses(addresses){
 }
 
 // Add function to print phone types and numbers
-
+function showPhoneNums(phones){
+    console.log("Phone numbers:");
+    for (let [phone, number]) of phoneNumber) {
+    console.log(`${phone}: ${number}`);
+    }
+}
 
 // ///////////////////////////////////////////////////////
 // Transactions:
 
 // Create an empty map of transactions
+const transactions = new Map();
 
 
 // Add function to add transactions
-
+function addTransaction(date,amt) {
+    transactions.set(date,amt);
+}
 
 // Use the function to add transactions
 
